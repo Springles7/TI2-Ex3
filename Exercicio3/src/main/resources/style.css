@@ -1,0 +1,45 @@
+/* Estilo para o contêiner principal */
+.bgProdutos {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+/* Estilo para o título "Listagem de Produtos" */
+.bgProdutos h1 {
+    color: #333;
+}
+
+/* Estilo para o formulário de cadastro de produtos */
+.bgProdutos form {
+    margin-top: 20px;
+}
+
+/* Estilo para os campos do formulário */
+.bgProdutos .box {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Estilo para o botão de cadastrar */
+.bgProdutos .btn {
+    width: 100px;
+    height: 35px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o espaço entre o título e o formulário */
+.space {
+    margin-top: 20px;
+}

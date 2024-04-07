@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cadastro de Produtos</title>
+    <title>Listagem de Produtos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Cadastro de Produtos</h1>
+    <div class="bgProdutos">
+    <h1>Listagem de Produtos</h1>
+    <ul id="produtos">
+        <!-- Os produtos serão adicionados aqui -->
+    </ul>
+
+    <h2 class="space">Cadastro de Novo Produto</h2>
     <form action="/cadastrar-produto" method="post">
-        Nome do Produto: <input type="text" name="nome"><br>
-        Preço do Produto: <input type="text" name="preco"><br>
-        <input type="submit" value="Cadastrar">
+       <p>Nome do Produto:</p> <input class="box" type="text" name="nome"><br>
+       <p>Preço do Produto:</p> <input  class="box" type="text" name="preco"><br>
+        <input class="btn" type="submit" value="Cadastrar">
     </form>
+</div>
 </body>
 </html>
